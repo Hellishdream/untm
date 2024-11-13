@@ -1,11 +1,12 @@
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 using System.Collections;
 
 public class UTMSequenceManager : MonoBehaviour
 {
     [Header("UI References")]
-    [SerializeField] private Text instructionText;
+    [SerializeField] private TextMeshProUGUI instructionText;
     [SerializeField] private Button nextButton;
    
     private int currentStep = 0;
